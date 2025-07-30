@@ -11,7 +11,6 @@ This repository contains the code and results for the research project *Temporal
 
 ### Task 1: Cosine Similarity Drift
 - **Description**: Quantified representation drift by calculating cosine similarity between pre-trained and epoch-wise CLS embeddings.
-- **Implementation**: Used the formula \( D^{(t)} = \frac{1}{M} \sum_{i=1}^M (1 - \cos(\mathrm{H}_i^{(0)}, \mathrm{H}_i^{(t)})) \) across 200 validation samples.
 - **Results**:
   - Generated `cosine_similarity_drift.png` (Figure 1): Shows a decrease from 0.37 (Epoch 1) to 0.04 (Epoch 10).
   - Table 1: Lists drift values (e.g., Epoch 1: 0.3511, Epoch 2: 0.2741, etc.).
