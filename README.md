@@ -1,6 +1,6 @@
 # Temporal-Belief-dynamics-in-BERT
 
-This repository contains the code and results for the research project *Temporal Belief Dynamics in BERT: A Graph-Theoretic Approach to Interpretable Representation Drift* by Mohith D K, Ishwar Harihar, and Ravi Gorripati (PES University, Bangalore - 500085, India). The project analyzes how BERT's internal representations evolve during fine-tuning on the SST-2 dataset using graph-theoretic methods.
+This repository contains the code and results for the research project *Temporal Belief Dynamics in BERT: A Graph-Theoretic Approach to Interpretable Representation Drift* by Mohith D K (PES University, Bangalore - 500085, India). The project analyzes how BERT's internal representations evolve during fine-tuning on the SST-2 dataset using graph-theoretic methods.
 
 ## Overview
 - **Objective**: Track, measure, and interpret representation drift in BERT over 10 training epochs using cosine similarity, similarity graphs, and UMAP visualizations.
