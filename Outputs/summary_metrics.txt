@@ -1,0 +1,37 @@
+Temporal Belief Dynamics in BERT: Summary Metrics
+==========================================
+Cosine Similarity Drift (to Pre-trained):
+Epoch 1: 0.3551
+Epoch 2: 0.2178
+Epoch 3: 0.2030
+Epoch 4: 0.1341
+Epoch 5: 0.1441
+Epoch 6: 0.1848
+Epoch 7: 0.1419
+Epoch 8: 0.1014
+Epoch 9: 0.1375
+Epoch 10: 0.0746
+
+Graph Edit Distance:
+Pre-trained to Epoch 1: 0.0000
+Epoch 1 to Epoch 2: 465368.7765
+Epoch 2 to Epoch 3: 58650.1845
+Epoch 3 to Epoch 4: 14818.4783
+Epoch 4 to Epoch 5: 116092.1829
+Epoch 5 to Epoch 6: 34186.1450
+Epoch 6 to Epoch 7: 25616.0961
+Epoch 7 to Epoch 8: 91303.7639
+Epoch 8 to Epoch 9: 1432.5678
+Epoch 9 to Epoch 10: 13978.9500
+
+Centrality Drift (to Pre-trained):
+Epoch 1: 0.0000
+Epoch 2: 0.3279
+Epoch 3: 0.3029
+Epoch 4: 0.3021
+Epoch 5: 0.2707
+Epoch 6: 0.2830
+Epoch 7: 0.2935
+Epoch 8: 0.2634
+Epoch 9: 0.2631
+Epoch 10: 0.2682
